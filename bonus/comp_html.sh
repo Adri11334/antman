@@ -25,6 +25,6 @@ function compress_test {
     done
 }
 
-compress_test $(find ./comp_test/TA/*.html -type f -follow -print)
+compress_test $(find ./TA/*.html -type f -follow -print)
 
 make -s -C../ fclean
