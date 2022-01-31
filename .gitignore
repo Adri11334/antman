@@ -1,0 +1,7 @@
+*.a
+*.o
+vgcore.*
+antman/antman
+giantman/giantman
+.vscode/
+test.txt
